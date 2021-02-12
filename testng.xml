@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  	<groups><run><exclude name="Regration"></exclude></run></groups>
+  
+    <classes>
+      <class name="test_Assign.Actitime"/>
+      <class name="testNG_Demo.TestNG_Verifications"/>
+   <!--   <class name="testNG_Demo.Cyclic_Dependencies"/>	-->
+   <!--   <class name="testNG_Demo.Priority"/>	-->
+   <!--   <class name="testNG_Demo.Soft_Assert_Test"/>	-->
+   <!--   <class name="testNG_Demo.Depend_on_Method"/>	-->
+   <!--   <class name="testNG_Demo.Priority_DependsOn_Methods"/>	-->
+   <!--   <class name="testNG_Demo.Multiple_Dependencies"/>	-->
+   <!--   <class name="testNG_Demo.Multiple_Task_Method"/>	-->
+   <!--   <class name="testNG_Demo.Invocation_Count"/>	-->
+      <class name="testNG_Demo.TestNG_Annotations"/>
+      <class name="test_Assign.ACTITIME1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
